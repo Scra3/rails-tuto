@@ -30,7 +30,7 @@ Définition de la view pour générer l'HTML :
 ```
 # index.haml
 
-  %h1 "Il y a #{ @clients.length } clients"
+  %h1= "Il y a #{ @clients.length } clients"
 ```
 
 
